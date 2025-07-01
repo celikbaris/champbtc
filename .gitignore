@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+venv/
+env/
+
+# Data and Reports (Generated files)
+data/
+reports/
+trainer/
+
+# State files (Runtime generated)
+dashboard_state.json
+champion_state.json
+paper_account.json
+
+# Configuration with secrets (cleaned config.ini is safe to commit)
+# config.ini - commented out since we cleaned it
+
+# OS-specific
+.DS_Store
+Thumbs.db
